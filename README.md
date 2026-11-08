@@ -2,6 +2,24 @@
 
 An educational course platform focused on clear, responsive experiences for administrators, teachers, and students.
 
+## Demo
+
+<!-- Add a product walkthrough GIF or video here. -->
+
+![CourseHub sign-in screen](docs/screenshots/login.png)
+
+![Administrator dashboard with platform statistics](docs/screenshots/admin-dashboard.png)
+
+![Administrator user management with role filters](docs/screenshots/admin-users.png)
+
+![Teacher dashboard with course statistics](docs/screenshots/teacher-dashboard.png)
+
+![Teacher course list with publication controls](docs/screenshots/teacher-courses.png)
+
+![Student dashboard with recently published courses](docs/screenshots/student-dashboard.png)
+
+![Student catalog with search and subject filters](docs/screenshots/student-catalog.png)
+
 ## About this project
 
 CourseHub is a recreation of the features of an educational web application I worked on during an internship: course publishing and browsing, with administrator, teacher and student roles. It contains no code, template or data from the original project. The back-end here is a simplified version built for this demo, and all accounts and content are fictional.
@@ -57,4 +75,3 @@ php artisan serve
 ```
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000). For front-end development with live reload, run `npm run dev` in a second terminal.
-
