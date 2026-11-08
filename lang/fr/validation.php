@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'accepted' => 'Le champ :attribute doit être accepté.',
+    'array' => 'Le champ :attribute doit être un tableau.',
+    'confirmed' => 'La confirmation de :attribute ne correspond pas.',
+    'email' => 'Le champ :attribute doit être une adresse e-mail valide.',
+    'exists' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'file' => 'Le champ :attribute doit être un fichier.',
+    'in' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'integer' => 'Le champ :attribute doit être un nombre entier.',
+    'max' => [
+        'array' => 'Le champ :attribute ne peut pas contenir plus de :max éléments.',
+        'file' => 'Le fichier :attribute ne peut pas dépasser :max kilo-octets.',
+        'numeric' => 'La valeur de :attribute ne peut pas dépasser :max.',
+        'string' => 'Le champ :attribute ne peut pas dépasser :max caractères.',
+    ],
+    'min' => [
+        'file' => 'Le fichier :attribute doit peser au moins :min kilo-octets.',
+        'numeric' => 'La valeur de :attribute doit être au moins :min.',
+        'string' => 'Le champ :attribute doit contenir au moins :min caractères.',
+    ],
+    'mimes' => 'Le fichier :attribute doit être au format :values.',
+    'required' => 'Le champ :attribute est obligatoire.',
+    'string' => 'Le champ :attribute doit être une chaîne de caractères.',
+    'unique' => 'Cette valeur pour :attribute est déjà utilisée.',
+    'attributes' => [
+        'name' => 'nom',
+        'email' => 'adresse e-mail',
+        'password' => 'mot de passe',
+        'password_confirmation' => 'confirmation du mot de passe',
+        'role' => 'rôle',
+        'is_active' => 'statut du compte',
+        'subject_id' => 'matière',
+        'title' => 'titre',
+        'description' => 'description',
+        'content' => 'contenu',
+        'status' => 'statut',
+        'files' => 'fichiers joints',
+        'files.*' => 'fichier joint',
+    ],
+];
